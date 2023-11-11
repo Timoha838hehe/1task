@@ -1,0 +1,63 @@
+h1 {
+    padding-right: 80%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', verdana;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    height: 100px;
+    background-color: #777d6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+div {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    
+}
+
+nav {
+    
+    width: 20%;
+    background-color: #999f8e;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+nav a {
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+    background-color: #d2d8c7;
+}
+
+footer {
+    height: 20px;
+    background-color: #777d6a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
